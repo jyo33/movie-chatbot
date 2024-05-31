@@ -17,5 +17,5 @@ request('http://www.omdbapi.com/?t='+mg.text+'&apikey=ea77e202', function (error
   else{
       bot.sendMessage(mg.chat.id, "Movie not found")
   }
-});
+
 })
